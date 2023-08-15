@@ -5,4 +5,11 @@ var age = 23;
 let year = 2023;
 const name = "이진이";
 
-console.log(age, year, name);
+let arr = [null, undefined, 0, '', '4.1'];
+
+document.writeln(arr[0] == undefined);
+document.writeln(arr[1] == null);
+document.writeln(arr[2] == '');
+document.writeln(arr[3] == false);
+document.writeln(arr[4] == '4.1');
+
